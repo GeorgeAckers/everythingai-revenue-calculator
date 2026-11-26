@@ -1,0 +1,5 @@
+# Nothing but the page itself belongs in this repo.
+*
+!.gitignore
+!index.html
+!README.md

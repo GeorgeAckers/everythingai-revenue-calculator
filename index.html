@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EverythingAI — Hidden CRM Revenue Calculator | For UK Business Owners</title>
+<meta name="description" content="Curious to see how much potential revenue is hidden in your CRM? Move a few sliders and get an instant, conservative estimate.">
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<style>
+/* ==========================================================================
+   EverythingAI — VSL / booking landing page
+   ========================================================================== */
+:root{
+  --bg:#04060D;
+  --surface:#0B1120;
+  --surface-2:#101A2E;
+  --border:#1C2942;
+  --text:#F5F7FB;
+  --text-muted:#96A4C0;
+  --text-faint:#63739A;
+
+  --blue:#2F8CFF;
+  --blue-light:#6FC3FF;
+  --blue-dark:#1657C4;
+
+  --font-head:'Space Grotesk','Segoe UI',sans-serif;
+  --font-body:'DM Sans','Segoe UI',sans-serif;
+  --radius:18px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html{
+  scroll-behavior:smooth;
+  background:var(--bg);
+  /* Scrollbar hidden, scrolling itself untouched — wheel, trackpad, touch,
+     keyboard and the anchor buttons all still work. */
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar{width:0; height:0; display:none;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font-body);
+  font-size:16px;
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%; display:block;}
+a{color:inherit;}
+
+/* --------------------------------------------------------------------------
+   Glowing blue background — fixed patches + faint perspective grid
+   -------------------------------------------------------------------------- */
+.bg-layer{
+  position:fixed; inset:0; z-index:-2; pointer-events:none;
+  background:
+    radial-gradient(58% 42% at 50% 6%,  rgba(47,140,255,.30) 0%, rgba(47,140,255,0) 70%),
+    radial-gradient(42% 32% at 90% 28%, rgba(23,90,220,.24)  0%, rgba(23,90,220,0)  70%),
+    radial-gradient(46% 34% at 6%  60%, rgba(88,40,190,.20)  0%, rgba(88,40,190,0)  72%),
+    radial-gradient(62% 42% at 50% 96%, rgba(47,140,255,.22) 0%, rgba(47,140,255,0) 70%),
+    var(--bg);
+}
+.bg-pulse{
+  position:fixed; inset:-20%; z-index:-2; pointer-events:none;
+  background:
+    radial-gradient(28% 22% at 22% 26%, rgba(60,150,255,.16) 0%, rgba(60,150,255,0) 70%),
+    radial-gradient(26% 20% at 78% 72%, rgba(47,140,255,.14) 0%, rgba(47,140,255,0) 70%);
+  animation:drift 26s var(--ease) infinite alternate;
+}
+@keyframes drift{
+  from{transform:translate3d(-2%,-1%,0) scale(1);}
+  to  {transform:translate3d(3%,2%,0)   scale(1.12);}
+}
+/* Perspective grid floor, like the brand banners */
+.bg-grid{
+  position:fixed; left:-25%; right:-25%; bottom:0; height:58vh; z-index:-2;
+  pointer-events:none; opacity:.28;
+  background-image:
+    linear-gradient(to right, rgba(90,160,255,.30) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(90,160,255,.22) 1px, transparent 1px);
+  background-size:70px 70px;
+  transform:perspective(340px) rotateX(66deg);
+  transform-origin:bottom center;
+  -webkit-mask-image:linear-gradient(to top, #000 0%, rgba(0,0,0,.35) 45%, transparent 85%);
+          mask-image:linear-gradient(to top, #000 0%, rgba(0,0,0,.35) 45%, transparent 85%);
+}
+.bg-vignette{
+  position:fixed; inset:0; z-index:-2; pointer-events:none;
+  background:radial-gradient(120% 90% at 50% 40%, transparent 40%, rgba(2,4,9,.75) 100%);
+}
+
+/* --------------------------------------------------------------------------
+   Layout
+   -------------------------------------------------------------------------- */
+.wrap{width:min(100% - 40px, 960px); margin-inline:auto;}
+.center{text-align:center;}
+
+/* --------------------------------------------------------------------------
+   Hero
+   -------------------------------------------------------------------------- */
+.hero{padding:62px 0 12px;}
+.eyebrow{
+  display:inline-flex; align-items:center; gap:9px;
+  margin:0 0 22px;
+  padding:8px 16px;
+  border:1px solid rgba(47,140,255,.35);
+  border-radius:999px;
+  background:rgba(47,140,255,.08);
+  box-shadow:0 0 34px -10px rgba(47,140,255,.6) inset;
+  font-family:var(--font-head);
+  font-size:.72rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase;
+  color:#BFD9FF;
+}
+.eyebrow .dot{
+  width:7px; height:7px; border-radius:50%;
+  background:var(--blue-light);
+  box-shadow:0 0 0 4px rgba(111,195,255,.18);
+  animation:blink 2.4s ease-in-out infinite;
+}
+@keyframes blink{0%,100%{opacity:1;} 50%{opacity:.35;}}
+
+h1{
+  font-family:var(--font-head);
+  font-size:clamp(1.8rem, 5.4vw, 3.85rem);
+  font-weight:700;
+  line-height:1.09;
+  letter-spacing:-.025em;
+  margin:0 0 20px;
+  text-wrap:balance;
+}
+.accent{
+  color:var(--blue-light);
+  text-shadow:0 0 42px rgba(47,140,255,.55);
+}
+.underline{
+  position:relative;
+  white-space:nowrap;
+}
+.underline::after{
+  content:"";
+  position:absolute; left:0; right:0; bottom:.1em;
+  height:.06em; border-radius:2px;
+  background:linear-gradient(90deg, var(--blue-light), var(--blue));
+  box-shadow:0 0 18px rgba(47,140,255,.7);
+}
+.hero-sub{
+  max-width:640px; margin:0 auto;
+  color:var(--text-muted);
+  font-size:clamp(1rem, 1.6vw, 1.12rem);
+}
+.hero-sub strong{color:var(--text); font-weight:500;}
+
+/* --------------------------------------------------------------------------
+   Steps
+   -------------------------------------------------------------------------- */
+.step{padding:44px 0 0;}
+.step-head{margin:0 0 18px;}
+.step-title{
+  font-family:var(--font-head);
+  font-size:clamp(1.15rem, 2.4vw, 1.5rem);
+  font-weight:600; letter-spacing:-.01em;
+  margin:14px 0 0;
+}
+
+.trust{
+  display:flex; flex-wrap:wrap; justify-content:center; gap:8px 22px;
+  margin:26px 0 0; padding:0; list-style:none;
+  color:var(--text-faint); font-size:.88rem;
+}
+.trust li{display:flex; align-items:center; gap:8px;}
+.trust svg{width:15px; height:15px; color:var(--blue);}
+
+/* Buttons ---------------------------------------------------------------- */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  padding:15px 30px;
+  border:0; border-radius:10px;
+  font-family:var(--font-body); font-size:1rem; font-weight:700;
+  text-decoration:none; cursor:pointer;
+  transition:transform .2s var(--ease), box-shadow .2s var(--ease), background .2s var(--ease);
+}
+.btn-primary{
+  background:var(--blue); color:#fff;
+  box-shadow:0 14px 40px -14px rgba(47,140,255,.95);
+}
+.btn-primary:hover{background:#4C9DFF; transform:translateY(-2px); box-shadow:0 20px 50px -14px rgba(47,140,255,1);}
+.btn-ghost{
+  background:rgba(255,255,255,.04); color:var(--text);
+  border:1px solid var(--border);
+}
+.btn-ghost:hover{background:rgba(255,255,255,.08); transform:translateY(-2px);}
+.btn-lg{padding:17px 40px; font-size:1.05rem;}
+
+/* Calendar --------------------------------------------------------------- */
+#calendar{scroll-margin-top:24px;}
+.cal-card{
+  margin-top:6px;
+  padding:10px;
+  border-radius:var(--radius);
+  background:linear-gradient(180deg, rgba(20,32,56,.75), rgba(9,14,26,.75));
+  border:1px solid var(--border);
+  box-shadow:0 40px 90px -50px rgba(47,140,255,.6), 0 24px 60px -30px rgba(0,0,0,.9);
+}
+.cal-inner{
+  border-radius:calc(var(--radius) - 8px);
+  overflow:hidden;
+  background:#0A0F1C;
+}
+/* Tall enough that the whole booking card fits with no scrollbar inside the
+   iframe; data-resize lets Calendly trim it to the exact content height. */
+.calendly-inline-widget{min-width:280px; height:1200px; min-height:700px;}
+
+/* --------------------------------------------------------------------------
+   Bottom CTA
+   -------------------------------------------------------------------------- */
+.cta{
+  position:relative;
+  /* Full bleed: breaks out of any max-width container the page is dropped
+     into (GoHighLevel, a page builder, a themed site) so the blue always
+     runs edge to edge. Harmless on a plain full-width page. */
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  width:auto;
+  margin-top:86px;
+  padding:86px 0 92px;
+  overflow:hidden;
+  background:
+    radial-gradient(115% 130% at 100% 50%, rgba(38,124,255,.95) 0%, rgba(20,74,190,.75) 22%, rgba(9,32,92,.35) 45%, rgba(4,7,14,0) 68%),
+    linear-gradient(90deg, #04060D 0%, #050A16 45%, #061027 100%);
+  border-top:1px solid rgba(47,140,255,.18);
+}
+.cta::before{
+  content:"";
+  position:absolute; inset:0;
+  background:radial-gradient(70% 90% at 0% 50%, rgba(2,3,8,.9) 0%, rgba(2,3,8,0) 60%);
+  pointer-events:none;
+}
+.cta > .wrap{position:relative;}
+/* Sized off the wordmark so the mark keeps the brand lockup's proportions
+   (the icon is roughly 3x the cap height of the type) at every breakpoint. */
+.cta-lockup{
+  display:flex; align-items:center; justify-content:center;
+  gap:.62em; margin:0 0 44px;
+  font-size:clamp(1.6rem, 3.2vw, 2.15rem);
+}
+.cta-lockup img{height:2.1em; width:auto;}
+.cta-wordmark{
+  font-family:var(--font-head);
+  font-size:1em;
+  font-weight:600; letter-spacing:-.02em;
+  color:#fff;
+}
+.cta h2{
+  font-family:var(--font-head);
+  font-size:clamp(1.9rem, 4.6vw, 3.15rem);
+  font-weight:700; line-height:1.1; letter-spacing:-.025em;
+  margin:0 0 26px;
+  text-wrap:balance;
+}
+.cta p{
+  margin:0 0 42px;
+  color:rgba(255,255,255,.82);
+  font-size:1rem;
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+.footer{
+  /* Full bleed too, so its top border matches the CTA above it. */
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  padding:30px 0 38px;
+  color:var(--text-faint);
+  font-size:.84rem;
+  border-top:1px solid rgba(255,255,255,.05);
+}
+
+/* --------------------------------------------------------------------------
+   Reveal on scroll
+   -------------------------------------------------------------------------- */
+/* Hidden only once JS has confirmed it can reveal them again — so the page is
+   never blank if the script fails to run. */
+.js .reveal{opacity:0; transform:translateY(20px); transition:opacity .7s var(--ease), transform .7s var(--ease);}
+.js .reveal.is-in{opacity:1; transform:none;}
+
+@media (max-width:760px){
+  .calendly-inline-widget{height:1450px;}
+  .cta{margin-top:64px; padding:66px 0 72px;}
+  .cta-lockup{margin-bottom:34px;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important;}
+  .js .reveal{opacity:1; transform:none;}
+}
+/* ==========================================================================
+   Shared tool styles (diagnostic + calculator), built on the landing page tokens
+   ========================================================================== */
+:root{
+  --good:#34D399; --good-soft:rgba(52,211,153,.08);
+  --warn:#F5A524; --warn-soft:rgba(245,165,36,.08);
+  --violet:#A78BFA;
+}
+.tool-card{
+  padding:clamp(22px, 4.5vw, 40px);
+  border-radius:var(--radius);
+  background:linear-gradient(180deg, rgba(20,32,56,.78), rgba(9,14,26,.82));
+  border:1px solid var(--border);
+  box-shadow:0 40px 90px -50px rgba(47,140,255,.6), 0 24px 60px -30px rgba(0,0,0,.9);
+  -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
+}
+.tool h3, .section > h3{font-family:var(--font-head); font-size:1.1rem; font-weight:600; letter-spacing:-.01em; margin:0;}
+.section{margin-top:38px;}
+.section > h3{display:flex; align-items:center; gap:10px; margin-bottom:16px;}
+.section > h3 .ico{width:30px; height:30px; border-radius:9px; display:grid; place-items:center; flex:0 0 auto;}
+.link{background:none; border:0; color:var(--text-muted); font:600 .95rem var(--font-body); padding:10px 4px; cursor:pointer; display:inline-flex; align-items:center; gap:6px;}
+.link:hover{color:var(--text);}
+.btn:focus-visible, .opt:focus-visible, .link:focus-visible, input:focus-visible, button:focus-visible{outline:2px solid var(--blue-light); outline-offset:3px;}
+.tool label{display:grid; gap:6px; font-size:.9rem; font-weight:500; color:var(--text);}
+.tool input[type=text], .tool input[type=email]{font:inherit; padding:14px 16px; border-radius:12px; border:1px solid var(--border); background:rgba(255,255,255,.03); color:var(--text); width:100%;}
+.fade{animation:fadeUp .45s var(--ease) both;}
+@keyframes fadeUp{from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:none;}}
+
+[hidden]{display:none !important;}
+
+
+/* ---------------- Calculator-specific ---------------- */
+:root{ --l1:#6FC3FF; --l2:#34D399; --l3:#A78BFA; }
+.calc-grid{display:grid; grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr); gap:22px; align-items:start;}
+@media (max-width:860px){ .calc-grid{grid-template-columns:1fr;} }
+
+.group + .group{margin-top:30px; padding-top:30px; border-top:1px solid var(--border);}
+.group-h{display:flex; align-items:center; gap:12px; margin-bottom:20px;}
+.group-h .n{width:30px; height:30px; border-radius:9px; display:grid; place-items:center; font-family:var(--font-head); font-weight:700; font-size:.9rem; color:#04060D; flex:0 0 auto;}
+.group-h h2{font-family:var(--font-head); font-size:1.15rem; font-weight:600; margin:0; letter-spacing:-.01em;}
+
+.field{margin-bottom:22px;}
+.field:last-child{margin-bottom:0;}
+.field-top{display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:10px;}
+.field-top label{font-size:.93rem; font-weight:500; color:var(--text);}
+.num-in{display:inline-flex; align-items:center; flex:0 0 auto; border:1px solid var(--border); border-radius:10px; padding:0 10px; background:rgba(255,255,255,.03); min-width:120px;}
+.num-in:focus-within{border-color:var(--blue); box-shadow:0 0 0 3px rgba(47,140,255,.18);}
+.num-in span{color:var(--text-faint); font-weight:500; font-size:.9rem;}
+.num-in input{font:700 1rem var(--font-body); color:var(--text); border:0; outline:0; width:100%; padding:9px 4px; text-align:right; background:transparent; font-variant-numeric:tabular-nums; -moz-appearance:textfield;}
+.num-in input::-webkit-outer-spin-button, .num-in input::-webkit-inner-spin-button{-webkit-appearance:none; margin:0;}
+
+input[type=range]{-webkit-appearance:none; appearance:none; width:100%; height:6px; border-radius:99px; margin:6px 0; outline:none;
+  background:linear-gradient(to right, var(--blue) var(--p,50%), rgba(255,255,255,.08) var(--p,50%));}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none; width:22px; height:22px; border-radius:50%; background:#fff; border:4px solid var(--blue); box-shadow:0 0 0 5px rgba(47,140,255,.18), 0 0 18px rgba(47,140,255,.8); cursor:pointer;}
+input[type=range]::-moz-range-thumb{width:14px; height:14px; border-radius:50%; background:#fff; border:4px solid var(--blue); box-shadow:0 0 18px rgba(47,140,255,.8); cursor:pointer;}
+
+.seg{display:grid; grid-template-columns:repeat(4,1fr); gap:6px; padding:4px; border-radius:12px; background:rgba(255,255,255,.03); border:1px solid var(--border);}
+.seg button{font:500 .84rem/1.25 var(--font-body); border:1px solid transparent; background:transparent; color:var(--text-muted); padding:10px 6px; border-radius:9px; cursor:pointer;}
+.seg button:hover{color:var(--text);}
+.seg button[aria-checked="true"]{background:rgba(47,140,255,.16); border-color:rgba(47,140,255,.55); color:#fff;}
+@media (max-width:480px){ .seg{grid-template-columns:repeat(2,1fr);} }
+
+.curr{display:inline-flex; gap:4px; padding:4px; margin-top:26px; border-radius:10px; background:rgba(255,255,255,.03); border:1px solid var(--border);}
+.curr button{font:700 .9rem var(--font-body); border:1px solid transparent; background:transparent; color:var(--text-muted); padding:6px 14px; border-radius:7px; cursor:pointer;}
+.curr button[aria-checked="true"]{background:rgba(47,140,255,.16); border-color:rgba(47,140,255,.55); color:#fff;}
+
+/* Results panel */
+.results{position:sticky; top:20px; overflow:hidden; border-color:rgba(47,140,255,.35);
+  background:radial-gradient(120% 90% at 100% 0%, rgba(38,124,255,.42) 0%, rgba(20,74,190,.18) 35%, rgba(4,7,14,0) 70%), linear-gradient(180deg, rgba(14,24,44,.92), rgba(6,10,20,.92));}
+.results .lbl{font-family:var(--font-head); font-size:.74rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#BFD9FF; margin:0;}
+.big{font-family:var(--font-head); font-size:clamp(2.6rem, 6.5vw, 3.6rem); font-weight:700; letter-spacing:-.03em; line-height:1.05; margin:12px 0 8px; color:#fff; text-shadow:0 0 42px rgba(47,140,255,.55); font-variant-numeric:tabular-nums;}
+.sub{margin:0; color:var(--text-muted);}
+.sub b{color:var(--text);}
+.stack{display:flex; gap:3px; height:10px; border-radius:99px; overflow:hidden; margin:24px 0 16px; background:rgba(255,255,255,.06);}
+.stack i{display:block; height:100%; transition:width .45s var(--ease);}
+.lever{display:grid; grid-template-columns:12px 1fr auto; gap:4px 12px; align-items:baseline; padding:13px 0; border-top:1px solid rgba(255,255,255,.07);}
+.lever .sw{width:12px; height:12px; border-radius:4px; align-self:center;}
+.lever .nm{font-weight:500;}
+.lever .val{font-family:var(--font-head); font-weight:600; font-variant-numeric:tabular-nums;}
+.lever .ds{grid-column:2/-1; font-size:.82rem; color:var(--text-faint);}
+.results .btn{width:100%; margin-top:22px;}
+.results .btn-ghost{margin-top:10px;}
+.results .fine{font-size:.8rem; color:var(--text-faint); text-align:center; margin:14px 0 0;}
+
+details.how{margin-top:22px; border-radius:14px; border:1px solid var(--border); background:rgba(11,17,32,.7);}
+details.how summary{cursor:pointer; list-style:none; padding:18px 22px; font-family:var(--font-head); font-weight:600; display:flex; justify-content:space-between; align-items:center;}
+details.how summary::-webkit-details-marker{display:none;}
+details.how summary::after{content:"+"; font-size:1.3rem; color:var(--text-faint);}
+details.how[open] summary::after{content:"–";}
+details.how .body{padding:0 22px 22px; display:grid; gap:12px; color:var(--text-muted); font-size:.93rem;}
+details.how .body p{margin:0;}
+details.how b{color:var(--text);}
+</style>
+</head>
+
+<body>
+
+<!-- glowing background layers -->
+<div class="bg-layer"    aria-hidden="true"></div>
+<div class="bg-pulse"    aria-hidden="true"></div>
+<div class="bg-grid"     aria-hidden="true"></div>
+<div class="bg-vignette" aria-hidden="true"></div>
+
+<main>
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="wrap center">
+    <h1 class="reveal">Curious to see how much <span class="accent">potential revenue</span> is <span class="underline">hidden</span> in your CRM?</h1>
+    <p class="hero-sub reveal">
+      Move the sliders to match your business. You’ll get an instant estimate of what <strong>faster follow-up</strong>, <strong>reactivating old leads</strong> and <strong>fewer no-shows</strong> could be worth to you.
+    </p>
+    <div class="curr reveal" role="radiogroup" aria-label="Currency" id="curr"></div>
+  </div>
+</section>
+
+<!-- ========================== CALCULATOR ========================== -->
+<section class="step" id="calculator">
+  <div class="wrap">
+    <div class="calc-grid">
+      <div class="tool-card reveal" aria-label="Your numbers">
+        <div class="group">
+          <div class="group-h"><span class="n" style="background:var(--l1)">1</span><h2>Your leads</h2></div>
+          <div id="g1"></div>
+          <div class="field">
+            <div class="field-top"><label id="rt-label">How quickly do you usually reply to a new lead?</label></div>
+            <div class="seg" role="radiogroup" aria-labelledby="rt-label" id="rt"></div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="group-h"><span class="n" style="background:var(--l2)">2</span><h2>Your database</h2></div>
+          <div id="g2"></div>
+        </div>
+        <div class="group">
+          <div class="group-h"><span class="n" style="background:var(--l3)">3</span><h2>Your appointments</h2></div>
+          <div id="g3"></div>
+        </div>
+      </div>
+
+      <aside class="tool-card results reveal" aria-live="polite">
+        <p class="lbl">Estimated revenue hiding in your CRM</p>
+        <div class="big" id="annual">—</div>
+        <p class="sub">per year — that’s roughly <b id="monthly">—</b> a month.</p>
+        <div class="stack" aria-hidden="true"><i id="b1" style="background:var(--l1)"></i><i id="b2" style="background:var(--l2)"></i><i id="b3" style="background:var(--l3)"></i></div>
+        <div class="lever"><span class="sw" style="background:var(--l1)"></span><span class="nm">Faster response &amp; follow-up</span><span class="val" id="v1">—</span><span class="ds" id="d1"></span></div>
+        <div class="lever"><span class="sw" style="background:var(--l2)"></span><span class="nm">Reactivating old leads</span><span class="val" id="v2">—</span><span class="ds" id="d2"></span></div>
+        <div class="lever"><span class="sw" style="background:var(--l3)"></span><span class="nm">Fewer no-shows</span><span class="val" id="v3">—</span><span class="ds" id="d3"></span></div>
+        <a class="btn btn-primary btn-lg" id="cta" href="https://georgeackers.github.io/everythingai-landing/#calendar">Book My Free Call</a>
+        <a class="btn btn-ghost" id="cta2" hidden>Take the free CRM diagnostic</a>
+        <p class="fine">Estimates only, based on the figures you entered. Actual results vary by business.</p>
+      </aside>
+    </div>
+
+    <details class="how reveal">
+      <summary>How we calculate this</summary>
+      <div class="body">
+        <p><b>1. Faster response &amp; follow-up.</b> Instant replies and automated follow-up typically lift lead conversion. We assume a <span id="h-up"></span> relative increase in your conversion rate based on how quickly you reply today — the slower you reply now, the bigger the gain.</p>
+        <p><b>2. Reactivating old leads.</b> We assume just <span id="h-react"></span> of your old leads and past customers buy again over a year once they’re re-engaged by text.</p>
+        <p><b>3. Fewer no-shows.</b> Automatic confirmations and reminders typically cut no-shows. We assume a <span id="h-ns"></span> reduction, then apply your close rate and average customer value to the extra appointments that now show up.</p>
+        <p>These are deliberately cautious assumptions — a realistic starting point, not a best-case promise.</p>
+      </div>
+    </details>
+  </div>
+</section>
+</main>
+
+<!-- ========================= BOTTOM CTA ========================== -->
+<section class="cta">
+  <div class="wrap center">
+    <div class="cta-lockup reveal">
+      <img src="data:image/png;base64,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" alt="" width="745" height="720">
+      <span class="cta-wordmark">Everything<span class="accent">AI</span></span>
+    </div>
+    <h2 class="reveal">Ready to unlock the<br>revenue in your CRM?</h2>
+    <p class="reveal">You’ve already paid for these leads. Let’s turn them into sales.</p>
+    <a href="https://georgeackers.github.io/everythingai-landing/#calendar" class="btn btn-primary btn-lg reveal">Book My Free Call</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap center">
+    &copy; <span id="year">2026</span> EverythingAI. All rights reserved.
+  </div>
+</footer>
+
+<script>
+/* ======================= SETTINGS ======================= */
+const CONFIG = {
+  bookingUrl: "https://georgeackers.github.io/everythingai-landing/#calendar",          // the landing page's booking calendar
+  diagnosticUrl: "https://georgeackers.github.io/everythingai-crm-diagnostic/",    // optional link to the diagnostic site
+  defaultCurrency: "GBP",                 // "GBP", "USD", "EUR" or "AUD"
+
+  // Assumptions (deliberately conservative)
+  responseUplift: { instant: 0.10, hour: 0.20, day: 0.30, later: 0.40 }, // relative conversion lift
+  reactivationRate: 0.01,                 // 1% of old leads / past customers buy again per year
+  noShowReduction: 0.40                   // reminders cut no-shows by 40%
+};
+/* ======================================================== */
+const CURRENCIES = { GBP: "£", USD: "$", EUR: "€", AUD: "A$" };
+const LOCALES = { GBP: "en-GB", USD: "en-US", EUR: "en-IE", AUD: "en-AU" };
+
+const FIELDS = {
+  g1: [
+    { id: "leads", label: "New leads per month", min: 5, max: 2000, step: 5, val: 100, log: true },
+    { id: "conv", label: "Leads that become customers", min: 1, max: 60, step: 1, val: 10, suffix: "%" },
+    { id: "value", label: "Average value of a new customer", min: 50, max: 100000, step: 50, val: 1500, log: true, money: true }
+  ],
+  g2: [
+    { id: "dormant", label: "Old leads & past customers in your CRM", min: 0, max: 50000, step: 50, val: 2000, log: true, zeroOk: true }
+  ],
+  g3: [
+    { id: "appts", label: "Appointments or sales calls booked per month", min: 0, max: 1000, step: 1, val: 40, log: true, zeroOk: true },
+    { id: "noshow", label: "Percentage that don’t show up", min: 0, max: 60, step: 1, val: 20, suffix: "%" },
+    { id: "close", label: "Percentage you close when they do show", min: 1, max: 100, step: 1, val: 30, suffix: "%" }
+  ]
+};
+const RESPONSE = [
+  { k: "instant", t: "Under 5 minutes" },
+  { k: "hour", t: "Within an hour" },
+  { k: "day", t: "Same day" },
+  { k: "later", t: "Next day or later" }
+];
+
+const S = { currency: CURRENCIES[CONFIG.defaultCurrency] ? CONFIG.defaultCurrency : "GBP", response: "day", v: {} };
+const all = [].concat(...Object.values(FIELDS));
+all.forEach(f => S.v[f.id] = f.val);
+
+/* slider <-> value mapping (log scale for wide ranges) */
+const toSlider = (f, v) => {
+  if (!f.log) return v;
+  const lo = Math.log(Math.max(f.min, 1)), hi = Math.log(f.max);
+  if (v <= 0) return 0;
+  return Math.round(((Math.log(Math.max(v, Math.max(f.min, 1))) - lo) / (hi - lo)) * 1000);
+};
+const fromSlider = (f, s) => {
+  if (!f.log) return Number(s);
+  if (f.zeroOk && Number(s) === 0) return 0;
+  const lo = Math.log(Math.max(f.min, 1)), hi = Math.log(f.max);
+  const raw = Math.exp(lo + (s / 1000) * (hi - lo));
+  const st = raw < 100 ? (f.step >= 5 ? 5 : 1) : raw < 1000 ? 10 : raw < 10000 ? 50 : 500;
+  return Math.min(f.max, Math.max(f.zeroOk ? 0 : f.min, Math.round(raw / st) * st));
+};
+
+function fieldHTML(f) {
+  const pre = f.money ? `<span class="cur-sym">${CURRENCIES[S.currency]}</span>` : "";
+  const suf = f.suffix ? `<span>${f.suffix}</span>` : "";
+  return `
+    <div class="field">
+      <div class="field-top">
+        <label for="n-${f.id}">${f.label}</label>
+        <span class="num-in">${pre}<input id="n-${f.id}" type="number" inputmode="numeric" min="${f.zeroOk ? 0 : f.min}" max="${f.max}" step="1">${suf}</span>
+      </div>
+      <input type="range" id="r-${f.id}" aria-label="${f.label}" min="${f.log ? 0 : f.min}" max="${f.log ? 1000 : f.max}" step="${f.log ? 1 : f.step}">
+    </div>`;
+}
+
+function build() {
+  Object.keys(FIELDS).forEach(g => document.getElementById(g).innerHTML = FIELDS[g].map(fieldHTML).join(""));
+
+  all.forEach(f => {
+    const r = document.getElementById("r-" + f.id), n = document.getElementById("n-" + f.id);
+    r.addEventListener("input", () => { S.v[f.id] = fromSlider(f, r.value); sync(f, "range"); calc(); });
+    n.addEventListener("input", () => {
+      const x = parseFloat(n.value);
+      if (isNaN(x)) return;
+      S.v[f.id] = Math.max(f.zeroOk ? 0 : f.min, Math.min(f.max * 10, x)); // typing above the slider max is allowed
+      sync(f, "num"); calc();
+    });
+    n.addEventListener("blur", () => sync(f));
+    sync(f);
+  });
+
+  const rt = document.getElementById("rt");
+  rt.innerHTML = RESPONSE.map(o => `<button role="radio" data-k="${o.k}">${o.t}</button>`).join("");
+  radioGroup(rt, () => S.response, k => { S.response = k; calc(); });
+
+  const cur = document.getElementById("curr");
+  cur.innerHTML = Object.keys(CURRENCIES).map(c => `<button role="radio" data-k="${c}" aria-label="${c}">${CURRENCIES[c]}</button>`).join("");
+  radioGroup(cur, () => S.currency, k => {
+    S.currency = k;
+    document.querySelectorAll(".cur-sym").forEach(e => e.textContent = CURRENCIES[k]);
+    calc();
+  });
+
+  document.getElementById("cta").href = CONFIG.bookingUrl;
+  if (CONFIG.diagnosticUrl) { const c2 = document.getElementById("cta2"); c2.href = CONFIG.diagnosticUrl; c2.hidden = false; }
+}
+
+function radioGroup(el, get, set) {
+  const btns = [...el.querySelectorAll("button")];
+  const paint = () => btns.forEach(b => { const on = b.dataset.k === get(); b.setAttribute("aria-checked", on); b.tabIndex = on ? 0 : -1; });
+  btns.forEach((b, i) => {
+    b.onclick = () => { set(b.dataset.k); paint(); };
+    b.onkeydown = e => {
+      if (!["ArrowRight", "ArrowDown", "ArrowLeft", "ArrowUp"].includes(e.key)) return;
+      e.preventDefault();
+      const n = btns[(i + (e.key === "ArrowRight" || e.key === "ArrowDown" ? 1 : -1) + btns.length) % btns.length];
+      set(n.dataset.k); paint(); n.focus();
+    };
+  });
+  paint();
+}
+
+function sync(f, from) {
+  const r = document.getElementById("r-" + f.id), n = document.getElementById("n-" + f.id);
+  if (from !== "range") r.value = toSlider(f, Math.min(S.v[f.id], f.max));
+  if (from !== "num") n.value = S.v[f.id];
+  r.style.setProperty("--p", ((r.value - r.min) / (r.max - r.min)) * 100 + "%");
+}
+
+const money = v => new Intl.NumberFormat(LOCALES[S.currency], { style: "currency", currency: S.currency, maximumFractionDigits: 0 }).format(Math.round(v));
+const pct = v => Math.round(v * 100) + "%";
+const nf = v => new Intl.NumberFormat(LOCALES[S.currency], { maximumFractionDigits: 1 }).format(v);
+
+function calc() {
+  const v = S.v;
+  const conv = v.conv / 100;
+  const uplift = CONFIG.responseUplift[S.response];
+  const newConv = Math.min(0.95, conv * (1 + uplift));
+  const extraCustomersMo = v.leads * (newConv - conv);
+  const l1 = extraCustomersMo * v.value * 12;
+
+  const reactivated = v.dormant * CONFIG.reactivationRate;
+  const l2 = reactivated * v.value;
+
+  const savedShowsMo = v.appts * (v.noshow / 100) * CONFIG.noShowReduction;
+  const l3 = savedShowsMo * (v.close / 100) * v.value * 12;
+
+  const total = l1 + l2 + l3;
+  animateTo(document.getElementById("annual"), total);
+  document.getElementById("monthly").textContent = money(total / 12);
+  document.getElementById("v1").textContent = money(l1);
+  document.getElementById("v2").textContent = money(l2);
+  document.getElementById("v3").textContent = money(l3);
+  document.getElementById("d1").textContent = `≈ ${nf(extraCustomersMo * 12)} extra customers a year from leads you already get`;
+  document.getElementById("d2").textContent = `≈ ${nf(reactivated)} old leads & past customers buying again`;
+  document.getElementById("d3").textContent = `≈ ${nf(savedShowsMo * 12)} more appointments showing up a year`;
+
+  const w = x => total > 0 ? (x / total * 100) + "%" : "0%";
+  document.getElementById("b1").style.width = w(l1);
+  document.getElementById("b2").style.width = w(l2);
+  document.getElementById("b3").style.width = w(l3);
+
+  document.getElementById("h-up").textContent = pct(uplift);
+  document.getElementById("h-react").textContent = pct(CONFIG.reactivationRate);
+  document.getElementById("h-ns").textContent = pct(CONFIG.noShowReduction);
+}
+
+let shown = 0, raf;
+function animateTo(el, target) {
+  cancelAnimationFrame(raf);
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { shown = target; el.textContent = money(target); return; }
+  const from = shown, t0 = performance.now();
+  const step = t => {
+    const p = Math.min(1, (t - t0) / 450);
+    shown = from + (target - from) * (1 - Math.pow(1 - p, 3));
+    el.textContent = money(shown);
+    if (p < 1) raf = requestAnimationFrame(step);
+  };
+  raf = requestAnimationFrame(step);
+}
+
+build();
+calc();
+
+</script>
+<script>
+(function(){
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* Reveal on scroll */
+  var items = document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){
+    items.forEach(function(el){ el.classList.add('is-in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        entry.target.classList.add('is-in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, {rootMargin:'0px 0px -8% 0px', threshold:.12});
+  items.forEach(function(el, i){
+    el.style.transitionDelay = (Math.min(i,6) * 60) + 'ms';
+    io.observe(el);
+  });
+
+  /* Safety net: if nothing at all has revealed after a few seconds the observer
+     never ran (hidden tab, some embed previews) — show everything rather than
+     leave the page blank. */
+  setTimeout(function(){
+    if(document.querySelector('.reveal.is-in')) return;
+    items.forEach(function(el){ el.classList.add('is-in'); });
+  }, 2500);
+})();
+</script>
+</body>
+</html>
